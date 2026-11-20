@@ -763,5 +763,6 @@ If set to `1`, do not allow the container access to the host bluetooth periphera
 
 {: .important }
 The Wine bluetooth implementation is still incomplete. Even if `DISABLE_BLUETOOTH` is set to `0`, Zwift will not be able to
-connect to your bluetooth devices without using the companion app. For now, this setting is only meant for testing bluetooth in
+connect to your bluetooth devices without using the companion app or a
+[Direct Connect bridge](../../troubleshooting/bluetooth-devices/). For now, this setting is only meant for testing bluetooth in
 the container.
